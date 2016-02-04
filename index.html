@@ -2,7 +2,43 @@
 layout: default
 ---
 
-<div class="home">
+{% include section-slider.html %}
+
+{% include section-services.html %}
+
+{% include section-skills.html %}
+
+{% include section-portfolio.html %}
+
+{% comment %}
+
+<!-- {% include section-aboutus.html %} -->
+
+<!-- {% include section-stats.html %} -->
+
+<!-- {% include section-video.html %} -->
+
+<!-- {% include section-team.html %} -->
+
+<!-- {% include section-pricing.html %} -->
+
+{% endcomment %}
+
+{% include section-blog.html %}
+
+{% comment %}
+
+<!-- {% include section-testimonial.html %} -->
+
+<!-- {% include section-clients.html %} -->
+
+{% endcomment %}
+
+{% include section-contact.html %}
+
+{% include section-map.html %}
+
+<!-- <div class="home">
 
   <h1 class="page-heading">Posts</h1>
 
@@ -21,3 +57,4 @@ layout: default
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>
+ -->
